@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>QuickList</title>
+  </head>
+  <body>
+    <header>
+      <img src="logo.svg" alt="Logo QuickList" />
+    </header>
+
+    <main class="forms">
+      <div class="icons">
+        <a href="#" class="voltar">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-arrow-left-icon lucide-arrow-left"
+          >
+            <path d="m12 19-7-7 7-7" />
+            <path d="M19 12H5" />
+          </svg>
+
+          Voltar
+        </a>
+      </div>
+
+      <h1>Compras da Semana</h1>
+      <form>
+        <input class="input-form"
+          type="text"
+          id="text"
+          name="item"
+          placeholder="Adicione um novo item"
+          aria-label="Digite o nome do item da lista de compras"
+          required
+        />
+        <button type="submit" id="submit">Adicionar item</button>
+      </form>
+
+      <section class="items hidden ">
+     
+         <!--  <span class="check" id="check"></span> -->
+         <label class="checkbox-container">
+          <input type="checkbox">
+          <span class="custom-checkbox"></span>
+        </label>
+          <label for="check" class="text">Pão de forma</label>
+          
+          
+        <img
+            src="./assets/icons/lixeira.svg"
+            alt="Ícone de lixeira"
+            class="icon-trash">
+          
+      </section>
+      
+      <section class="danger hidden " id="danger" >
+        <img src="./assets/icons/danger.svg" alt="Ícone de perigo" class="icon-danger"/>
+        <p>O item foi removido da lista</p>
+        <img src="./assets/icons/close.svg" alt="Ícone de fechar" class="icon-close" />
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+.danger {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #C93847;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.icon-close {
+    margin-left: auto;
+}
+
+.icon-danger {
+    width: 18px;
+    height: 18px;
+}
+
+.danger p {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hidden {
+    display: none;
+}
+
