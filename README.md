@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O **QuickList** é uma aplicação web simples para gerenciar listas de compras semanais. O objetivo é permitir que o usuário adicione, visualize, marque como concluído e remova itens de uma lista de compras de forma rápida e intuitiva.
+O **QuickList** é uma aplicação web desenvolvida no curso Fullstack da Rocketseat para gerenciar listas de compras semanais. O objetivo é permitir que o usuário adicione, visualize, marque como concluído e remova itens de uma lista de compras de forma rápida e intuitiva.
 
 ## Escopo
 
@@ -38,3 +38,5 @@ O **QuickList** é uma aplicação web simples para gerenciar listas de compras 
 1. Baixe ou clone este repositório.
 2. Abra o arquivo `index.html` em seu navegador.
 3. Use a interface para gerenciar sua lista de compras. 
+
+Desenvolvido por [@pedroernesto](https://github.com/pedroernestovogado) e [Rocketseat](https://app.rocketseat.com.br/)
